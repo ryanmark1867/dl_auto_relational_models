@@ -1,0 +1,20 @@
+general:
+   user: "postgres"
+   host: "127.0.0.1"
+   port: "5432"
+   database: "dvdrental"
+query_scope:
+   cols:
+     - column_name 
+     - data_type 
+     - table_name
+   from_table: "information_schema.columns"
+   to_df_table: "customer"
+   schema: public
+   order_by_col: table_name
+files:
+   modifier: "oct18"
+   output_pickle_name: "catalog_df"
+   input_pickle_name: "catalog_df_july15.pkl"
+   output_table_df_pickle_name: "table_df"
+   output_catalog_csv: "catalog_csv"

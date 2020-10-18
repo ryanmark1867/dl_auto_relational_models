@@ -1,0 +1,14 @@
+data_type,column category,ex col,table,type shown in pgadmin,example values
+character varying,,,,,
+integer,continuous,,,,
+timestamp without time zone,,,,,
+text,text,,,,
+smallint,continuous,,,,
+date,,,,,
+boolean,categorical,,,,
+numeric,continuous,,,,
+tsvector,,fulltext,film,tsvector,'academi':1 'battl':15 'canadian':20 'dinosaur':2 'drama':5 'epic':4 'feminist':8 'mad':11 'must':14 'rocki':21 'scientist':12 'teacher':17
+ARRAY,,special_features,film,text[],"{Trailers,""Deleted Scenes""}"
+USER-DEFINED,categorical,,,,
+character,categorical,,,,
+bytea,categorical,,,,
